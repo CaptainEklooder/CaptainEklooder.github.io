@@ -131,6 +131,7 @@ body {
 
 .cdm-wrapper {
   margin-top: 55px; 
+  margin-left: 105px;
 }
 
 
@@ -143,12 +144,22 @@ body {
     margin-top: -100px;
 }
 
+.lw-wrapper {
+    margin-bottom: -60px
+}
+
+.rw-wrapper {
+    margin-bottom: -60px;
+}
+
 .cdm-wrapper1 {
     margin-top: 55px;
+    margin-right: 105px;
 }
 
 .cam-wrapper {
-    margin-top: -200px
+    margin-top: -200px;
+    margin-right: 0px;
 }
 
 .lb-wrapper {
