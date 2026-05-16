@@ -8,11 +8,14 @@
     <link rel="icon" type="image/png" href="photos/Messicon.png">
 </head>
 <body>
-    <h1 id="myH1" style="color:white;">Welcome to CaptainEklooder's website</h1>
-    <h2 style="color:white;">Hope you enjoy!</h2>
+    <div class="theme-toggle-container">
+        <button id="theme-toggle" class="theme-toggle" type="button">Switch to Dark Mode</button>
+    </div>
+    <h1 id="myH1">Welcome to CaptainEklooder's website</h1>
+    <h2>Hope you enjoy!</h2>
     
     <div id="login-container">
-        <label id="myLabel" style="color:white; font-size: 32px;">Username: </label>
+        <label id="myLabel" style="font-size: 32px;">Username: </label>
         <input id="myText"> <br><br>
         <button id="myButton">Submit</button> <br> <br> <br> <br>
     </div>
@@ -113,6 +116,7 @@
                 <p style="text-align: left; font-size: 30px">Formation: 4-2-1-3. <br> OVR: 120</p>
                 
                 <div class="row forwards">
+                <!--Forwards row-->
                     <div class="lw-wrapper">
                         <img src="photos/C. Ronaldo.png" class="player"> 
                     </div>
@@ -124,7 +128,7 @@
 
                 <div class="row midfielders">
 
-                    
+                <!--Midfielders row-->  
                     
                     <div class="cdm-wrapper">
                         <img src="photos/Marc Bernal.png" class="player">
@@ -136,7 +140,7 @@
                         <img src="photos/Rice.png" class="player">
                     </div>
                 </div>
-
+                <!--Defenders row-->
                 <div class="row defenders">
                     <div class="lb-wrapper">
                         <img src="photos/Joao Cancelo.png" class="player">
@@ -149,7 +153,7 @@
                         <img src="photos/Kounde.png" class="player">
                     </div>
                 </div>
-
+                <!--GK row-->
                 <div class="row goalkeeper">
                     <img src="photos/Joan Garcia.png" class="player">
                 </div>
@@ -168,13 +172,14 @@
             <p>The Marc Bernal card is actually 121 rated fully because he got a +1 ovr upgrade. But it didn't show up on RenderZ. Just remember that Marc Bernal is 121 rated.</p>
             <hr>
             <h1>My Coded Games</h1>
-            <iframe src="https://scratch.mit.edu/projects/924035798/embed" width="785" height="502" frameborder="0" allowfullscreen></iframe>
-            <p><strong>Coming soon: Football Manager Game</strong></p>
+            <iframe src="https://scratch.mit.edu/projects/924035798/embed" width="785" height="502" frameborder="0" allowfullscreen></iframe> <br>
+            <a href="https://captaineklooder.github.io/Football-Manager-Game/" target="_blank">Play the Football Manager Game</a>
         </div>
 
         <input type="radio" class="tabs__radio" name="tabs-example" id="stories">
         <label for="stories" class="tabs__label">Stories</label>
         <div class="tabs__content">
+            <h3>Stories</h3>
             <p><a href="https://docs.google.com/document/d/16TqIPGitjR70qac4hi7hSAcU22C2cs1RETxcgUGc1kc/edit?tab=t.0" target="_blank">The night days!</a></p>
         </div>        
 
@@ -210,6 +215,7 @@
             </table>
         </div>
     </div>
+    <!--Linking to the JavaScript file-->
     <script src="index.js"></script>
 </body>
 </html>
