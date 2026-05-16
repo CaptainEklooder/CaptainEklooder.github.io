@@ -209,8 +209,8 @@ input#myText {
 
 
 .cdm-wrapper {
-  margin-top: 55px; 
-  margin-left: 105px;
+  margin-top: 0px; 
+  margin-left: -45px;
 }
 
 
@@ -232,8 +232,8 @@ input#myText {
 }
 
 .cdm-wrapper1 {
-    margin-top: 55px;
-    margin-right: 105px;
+    margin-top: 0px;
+    margin-right: -45px;
 }
 
 .cam-wrapper {
