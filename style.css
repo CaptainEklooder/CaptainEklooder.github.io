@@ -191,7 +191,7 @@ input#myText {
   background: #00ef0c; 
   display: flex;
   flex-direction: column;
-  height: 1500px; 
+  height: 1100px; 
   justify-content: space-between;
   padding: 20px;
 }
@@ -210,7 +210,7 @@ input#myText {
 
 .cdm-wrapper {
   margin-top: 0px; 
-  margin-left: -45px;
+  margin-left: 95px;
 }
 
 
@@ -233,7 +233,7 @@ input#myText {
 
 .cdm-wrapper1 {
     margin-top: 0px;
-    margin-right: -45px;
+    margin-right: 95px;
 }
 
 .cam-wrapper {
