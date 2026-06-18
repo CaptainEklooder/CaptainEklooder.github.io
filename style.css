@@ -208,10 +208,7 @@ input#myText {
 }
 
 
-.cdm-wrapper {
-  margin-top: 100px; 
-  margin-left: 0px;
-}
+
 
 
 .lm-wrapper {
@@ -231,16 +228,27 @@ input#myText {
     margin-bottom: -60px;
 }
 
+.cdm-wrapper {
+  margin-top: 100px; 
+  margin-left: 95px;
+}
+
 .cdm-wrapper1 {
-    margin-top: 0px;
+    margin-top: 100px;
     margin-right: 95px;
 }
 
 .cam-wrapper {
-    margin-top: -200px;
-    margin-right: 0px;
+    margin-top: -100px;
+    
 }
 
+.cm-wrapper {
+    margin-left: 50px;
+}
+.cm1-wrapper {
+    margin-right: 50px;
+}
 .lb-wrapper {
     margin-top: -50px;
 }
